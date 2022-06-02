@@ -1,0 +1,182 @@
+
+
+body {
+    color: rgb(83, 11, 11);
+    background-image: url('../Imagenes/wallpaper.jpg');
+    background-size: cover;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+}
+
+header {
+    color: white;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px rgb(255, 0, 106);
+    background-color: rgb(58, 216, 255);
+    font-family: 'Bebas Neue', cursive;
+    padding: 20px 1rem;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: rgb(187, 255, 255);
+}
+
+.navmenu ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.navmenu li {
+    margin-right: 1.8rem;
+    font-size: 38px;
+}
+
+.titulo {
+    margin-top: -5px;
+    margin-bottom: -5px;
+    color: white;
+    font-size: 60px;
+    text-shadow: 5px 5px 5px rgb(255, 0, 106);
+    background-color: rgb(58, 216, 255);
+    font-family: 'Bebas Neue', cursive;
+    padding: 5px ;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.container__cards{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 500px;
+    margin: 10px;
+    transition: all 300ms;
+}
+
+.card:hover{
+    width: 350px;
+}
+
+.card .cover{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card .cover img{
+    width: 250px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 40px;
+    z-index: 1;
+    filter: drop-shadow(5px 5px 4px rgba(0,0,0,0.5));
+    transition: all 400ms;
+}
+
+.card:hover .cover img{
+    top: 0px;
+    filter: none;
+}
+
+
+.card .description{
+    background: white;
+    margin-top: -10px;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+    transition: all 300ms;
+}
+
+.card:hover .description{
+    padding: 40px;
+}
+
+.card .description h2{
+    margin-top: 10px;
+}
+
+.card .description p{
+    margin-top: 10px;
+}
+
+.card .description input{
+    padding: 10px 40px;
+    margin-top: 20px;
+    border: none;
+    background: #A6359D;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 300ms;
+}
+
+.card .description input:hover{
+    background: #83277b;
+
+}
+
+.container h1 {
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: -35px;
+}
+
+
+.container {
+    background-color: aliceblue;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+    margin: 30px 30px 30px 30px;
+    text-align: justify;
+    font-family: 'Oswald', sans-serif;
+    border-style: solid;
+}
+
+.video {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 45px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+}
